@@ -1,0 +1,25 @@
+
+*{
+  border: 1px solid red;
+}
+
+#container{
+  width: 100%;
+}
+
+#hangSVG{
+  width: 90%;
+  height: auto;
+}
+
+#image{
+  float: right;
+  width: 30%;
+}
+
+#letters{
+  float: left;
+  background-color: green;
+  width: 30%;
+  height: 100%;
+}
