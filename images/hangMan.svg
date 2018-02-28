@@ -13,26 +13,26 @@
 </g>
 <g id="head">
 	<g id="head_2_">
-		<path class="st1" d="M66,138.5c-19,0-34.5-15.5-34.5-34.5S47,69.5,66,69.5S100.5,85,100.5,104S85,138.5,66,138.5z"/>
+		<path class="st1 wrongGuess01" d="M66,138.5c-19,0-34.5-15.5-34.5-34.5S47,69.5,66,69.5S100.5,85,100.5,104S85,138.5,66,138.5z"/>
 		<path d="M66,72c17.6,0,32,14.4,32,32s-14.4,32-32,32s-32-14.4-32-32S48.4,72,66,72 M66,67c-20.4,0-37,16.6-37,37s16.6,37,37,37
 			s37-16.6,37-37S86.4,67,66,67L66,67z"/>
 	</g>
 </g>
 <g id="left-arm_1_">
-	<line id="left-arm" class="st0" x1="65.5" y1="166.5" x2="28.5" y2="239.5"/>
+	<line id="left-arm" class="st0 wrongGuess03" x1="65.5" y1="166.5" x2="28.5" y2="239.5"/>
 </g>
 <g id="right-arm_1_">
-	<line id="right-arm_2_" class="st0" x1="65.5" y1="166.5" x2="102.5" y2="239.5"/>
+	<line id="right-arm_2_" class="st0 wrongGuess04" x1="65.5" y1="166.5" x2="102.5" y2="239.5"/>
 </g>
 <g id="left-leg_1_">
-	<line id="left-leg" class="st0" x1="65.5" y1="265.5" x2="35.5" y2="345.5"/>
+	<line id="left-leg" class="st0 wrongGuess05" x1="65.5" y1="265.5" x2="35.5" y2="345.5"/>
 </g>
 <g id="right-leg_1_">
-	<line id="right-leg_2_" class="st0" x1="65.5" y1="265.5" x2="95.5" y2="345.5"/>
+	<line id="right-leg_2_" class="st0 wrongGuess06" x1="65.5" y1="265.5" x2="95.5" y2="345.5"/>
 </g>
 <g id="body_1_">
 	<g id="body">
-		<line class="st0" x1="65.5" y1="140.5" x2="65.5" y2="265.5"/>
+		<line class="st0 wrongGuess02" x1="65.5" y1="140.5" x2="65.5" y2="265.5"/>
 	</g>
 </g>
 </svg>
