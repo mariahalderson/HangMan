@@ -1,25 +1,54 @@
 
-*{
-  border: 1px solid red;
-}
 
 #container{
-  width: 100%;
-}
-
-#hangSVG{
-  width: 90%;
-  height: auto;
+  width: 960px;
+  margin: 0 auto;
 }
 
 #image{
+  width: 500px;
   float: right;
-  width: 30%;
 }
 
-#letters{
+#guess{
+  width: 300px;
   float: left;
-  background-color: green;
-  width: 30%;
-  height: 100%;
 }
+
+.wrongLetter{
+  clear: both;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
+
+#head, #left-arm_1_, #right-arm_1_, #left-leg_1_, #right-leg_1_, #body_1_{
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.lose{
+  width: 960px;
+  height: 900px;  
+  position: absolute;
+  top: 0;
+  background-color: white;
+  display: none;
+}
+
+
+
+.loseContent{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: red;
+  color: white;
+}
+
+.show-piece{
+  display: block;
+  opacity: 1 !important;
+  display: visible;
+}
+
