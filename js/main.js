@@ -11,7 +11,8 @@ let currentWord = words[Math.floor(Math.random()*words.length)],
     resetScreen = document.querySelector('.lose'),
     resetButton = resetScreen.querySelector('button'),
     wrongLetters = document.querySelector('.wrong-letters'),
-    wrongLetterArray = [];
+    wrongLetterArray = [],
+    wrongLetterCount = document.querySelector('.letter-count');
 
     console.log("Welcome to Hang Man! Your Current word is: ", currentWord);
 
@@ -30,6 +31,7 @@ function showResetScreen(message) {
 }
 
 function resetGame(){
+  
 	wrongGuesses = 0;
 	let gamePieces = Array.from(document.querySelectorAll('.show-piece'));
 	gamePieces.forEach(piece => piece.classList.remove('show-piece'));
@@ -53,7 +55,7 @@ function makeGuess() {
   //inside round brackets, check for condition
   if (currentWord.indexOf(this.value) < 0 ){ //if letter is at no position (not in word) , will appear as -1. LOSING PATH/bpth branches
   	//person chose wrong letter, track wrong answer.
-    
+    wrongLetterCount.textContent="WRONG LETTER COUNT: "+(wrongGuesses+1);
   	console.log("Wrong guess!! Your wrong guess count: ", wrongGuesses+1);
   	if(wrongGuesses >=6) {
   		console.log('you lose!');
@@ -87,6 +89,7 @@ function makeGuess() {
           if(letter === currentGuess){
             hintString[index] = currentGuess;
             correctGuesses++;
+            console.log("Good guess!");
           }
         
         });
@@ -108,6 +111,6 @@ guessBox.addEventListener('keyup', makeGuess);
 resetButton.addEventListener('click', resetGame);
 
 
-  init();
+init();
 
 })();
