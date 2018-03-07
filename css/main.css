@@ -28,7 +28,7 @@
 }
 
 .lose{
-  width: 960px;
+  width: 100%;
   height: 900px;  
   position: absolute;
   top: 0;
@@ -50,5 +50,19 @@
   display: block;
   opacity: 1 !important;
   display: visible;
+}
+
+.guess{
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  padding: 5px;
+border-radius: 2px;
+
+}
+
+.inputGuess{
+  margin: 0 auto;
+  text-align: center;
 }
 
