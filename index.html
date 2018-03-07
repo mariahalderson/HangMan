@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <title>Document</title>
+  <title>Hang Man!</title>
 </head>
 <body>
 
@@ -16,10 +16,11 @@
       <p>hangman</p>
   <section id="guess">
   <p class="current-word"></p>
-
-  <input class="guess" type="text">
-
-  <i class="wrong-letters-label">You Guessed this already</i>
+  <div class="inputGuess">
+  <input class="guess" type="text" maxlength="1">
+  <p class="inputTitle">Guess a letter!</p>
+  </div>
+  <i class="wrong-letters-label">WRONG GUESSES:</i>
   <p class="wrong-letters"></p>
   </section>
 
@@ -70,11 +71,11 @@
   <p class="noLetter"></p>
   </section>-->
 
-<section class="lose">
-  <div class="loseContent">
-  <p>YOU LOSE!</p>
+<section class="resetScreen lose">
+
+  <h3>YOU LOSE!</h3>
   <button>Play Again?</button>
-</div>
+
 </section>
 
   <script src="js/main.js"></script>
