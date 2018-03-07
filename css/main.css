@@ -5,6 +5,18 @@
   margin: 0 auto;
 }
 
+#container p
+{
+  font-size: 30px;
+  font-family: "Krungthep", sans-serif;
+}
+
+#guess
+{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
 #image{
   width: 500px;
   float: right;
@@ -29,7 +41,8 @@
 
 .lose{
   width: 960px;
-  height: 900px;  
+  height: 900px;
+  margin: 0 auto;
   position: absolute;
   top: 0;
   background-color: white;
@@ -42,7 +55,7 @@
   width: 500px;
   height: 500px;
   margin: 0 auto;
-  background-color: red;
+  background-image: url(../images/you_lose.svg);
   color: white;
 }
 
@@ -51,4 +64,3 @@
   opacity: 1 !important;
   display: visible;
 }
-

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 960" style="enable-background:new 0 0 960 960;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EE2525;}
+	.st1{fill:#333333;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Krungthep';}
+	.st4{font-size:60px;}
+	.st5{display:none;}
+	.st6{display:inline;fill:#5BD38E;}
+	.st7{display:inline;fill:#333333;}
+	.st8{display:inline;}
+</style>
+<g id="Lose">
+	<rect y="0.5" class="st0" width="959" height="960"/>
+	<rect x="18" y="18.5" class="st1" width="918" height="919"/>
+	<text transform="matrix(1 0 0 1 312.9717 273.605)"><tspan x="0" y="0" class="st2 st3 st4">You Lost :(</tspan><tspan x="-209.6" y="122" class="st2 st3 st4">Better Luck Next Time !</tspan></text>
+</g>
+<g id="Win" class="st5">
+	<rect y="0.5" class="st6" width="959" height="960"/>
+	<rect x="18" y="18.5" class="st7" width="918" height="919"/>
+	<text transform="matrix(1 0 0 1 312.9951 273.605)" class="st8"><tspan x="0" y="0" class="st2 st3 st4">You Won :)</tspan><tspan x="-22.3" y="122" class="st2 st3 st4">Keep It Up !</tspan></text>
+</g>
+</svg>
