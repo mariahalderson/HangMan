@@ -87,6 +87,7 @@ function makeGuess() {
           if(letter === currentGuess){
             hintString[index] = currentGuess;
             correctGuesses++;
+            console.log("That guess was right!");
           }
         
         });
